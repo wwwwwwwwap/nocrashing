@@ -1,4 +1,4 @@
-class anticrash {
+class Anticrash {
     constructor(logging, process){
         if(!logging) logging = false;
         if(typeof logging !== 'boolean') throw new TypeError(`[Anticrash] : logging must be a boolean`);
@@ -31,4 +31,4 @@ class anticrash {
 
 }
 
-exports.anticrash = anticrash
+exports.Anticrash = Anticrash
