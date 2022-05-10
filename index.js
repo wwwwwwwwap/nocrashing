@@ -1,4 +1,4 @@
-class Anticrash {
+class NoCrash {
     constructor(process){
         if(!process) throw new TypeError(`[Anticrash] : process must be renseigned`);
         this.process = process;
@@ -14,4 +14,4 @@ class Anticrash {
 
 }
 
-exports.Anticrash = Anticrash
+module.exports = NoCrash
